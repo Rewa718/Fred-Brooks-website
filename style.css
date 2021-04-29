@@ -19,15 +19,15 @@ li a {
 }
 
 li a:hover {
-  background-color:darkcyan;
+  background-color: darkcyan;
 }
 
 .color {
-  background-color:lightblue;
+  background-color: lightblue;
 }
 
 img {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
