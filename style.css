@@ -26,8 +26,13 @@ li a:hover {
   background-color: lightblue;
 }
 
-img {
+.photo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+img {
+  border: 2px solid rgba(8, 8, 87, 0.897);
 }
