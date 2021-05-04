@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Photo gallery webapge</title>
+    <title>Photo gallery webpage</title>
     <style>
         ul {
             list-style-type: none;
@@ -44,17 +44,15 @@
             background-color: lightblue;
         }
 
-        img {}
-
-        .img1 {
-            float: left;
-            width: 15%;
-            padding: 20px;
-            margin: 20px;
-            height: auto;
-            border-radius: 10px;
-            text-align: center;
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
         }
+
+  
+
+        
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -63,6 +61,7 @@
 </head>
 
 <body class="color">
+  
     <ul>
         <li><a class="active" href="https://Fred-Brooks-website.rewapatil.repl.co/index.html">Home</a></li>
         <li><a href="Timeline.html">Timeline</a></li>
@@ -70,23 +69,29 @@
         <li><a href="Awards.html">Awards</a></li>
         <li><a href="Photo gallery.html">Photo gallery</a></li>
     </ul>
-    <div class="img1">
-        <img src="/images/Mythical-man-month.jpg" alt="Frederick's published book" height="200" width="200">
+    <table class="center">
+    <tr>
+      <td>
+        <img src="/images/Mythical-man-month.jpg" alt="Frederick's published book" height="300" width="300">
         <p>Fred Brooks' published book</p>
-    </div>
-    <div class="img1">
-        <img src="/images/Fred Brooks as an IBM engineer.jpg" alt="Fred Brooks in IBM" height="200" width="200">
+      </td>
+      <td>
+        <img src="/images/Fred Brooks as an IBM engineer.jpg" alt="Fred Brooks in IBM" height="300" width="300">
         <p>Fred Brooks working in IBM, where he invented computer architecture</p>
-    </div>
-    <div class="img1">
-        <img src="/images/fred-brooks-turing-lecture.jpg" alt="Fred Brooks Turing lecture" height="200" width="200">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="/images/fred-brooks-turing-lecture.jpg" alt="Fred Brooks Turing lecture" height="300" width="300">
         <p>Fred Brooks giving the Turing lecture at University of North Carolina</p>
-    </div>
-    <div class="img1">
-        <img src="/images/paper-by-fred-brooks.jpg" alt="Fred Brooks paper at University of North Carolina" height="200"
-            width="200">
+      </td>
+      <td>
+        <img src="/images/paper-by-fred-brooks.jpg" alt="Fred Brooks paper at University of North Carolina" height="300"
+            width="300">
         <p>Fred Brook's paper at University of North Carolina</p>
-    </div>
+      </td>
+      </tr>
+      </table>
 
 </body>
 
